@@ -1,0 +1,117 @@
+
+.aside{
+    width: 30%;
+}
+
+.container-body{
+    display: flex;
+}
+
+.title-aside{
+    padding: 35px 0 0 30px;
+}
+
+.container-aside{
+    position: relative;
+    margin: 30px 0 15px 40px;
+    width: 75%;
+    min-height: 200px;
+    border-style: solid;
+    border-color: rgb(160, 61, 3);
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+.container-aside h2{
+    margin-bottom: 8px;
+    color: rgb(160, 61, 3);
+}
+
+.list-rec{
+    padding-top: 20px;
+    padding-left: 11px;
+    list-style:upper-roman
+}
+
+.list-rec-item{
+    font-size: 17px;
+}
+
+.books-container{
+    padding: 34px 25px;
+    width: 70%;
+}
+
+.books-container>h2{
+    text-align: center;
+}
+
+.books{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-left: 10%;
+}
+
+
+.book{
+    position: relative;
+    display: flex;
+    border-color: rgb(160, 61, 3);
+    background-color: rgba(160, 68, 15, 0.192);
+    border-radius: 10px;
+    padding: 20px 30px;
+    flex-direction: row;
+    border-style: solid;
+    width: 38%;
+    margin-top: 3%;
+    height: 200px;
+}
+
+.book h4{
+    text-align: center;
+    padding: 5px 8px;
+    width: 100%;
+    margin-left: 8%;
+    font-size: 18px;
+}
+
+.book img{
+    margin-left: 2%;
+}
+
+.book a{
+    position: absolute;
+    width: 30%;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border-color: rgb(160, 61, 3);
+    color: rgb(160, 61, 3);
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    left: 63%;
+    top: 50%;
+    text-decoration: none;
+}
+
+.book a:hover{
+    border-color: rgb(160, 61, 3);
+    color: white;
+    background-color: rgb(160, 61, 3);
+}
+
+h1{
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+.last-block{
+    margin-left: 30%;
+    margin-bottom: 50px;
+    width: 50%;
+    padding-top: 18px;
+}
+.last-block .book{
+    width: 70%;
+}

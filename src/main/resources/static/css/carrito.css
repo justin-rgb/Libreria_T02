@@ -1,0 +1,165 @@
+.aside{
+    width: 30%;
+}
+
+.container-body{
+    display: flex;
+}
+
+.title-aside{
+    padding: 35px 0 0 30px;
+}
+
+.container-aside{
+    position: relative;
+    margin: 30px 0 15px 40px;
+    width: 75%;
+    min-height: 200px;
+    border-style: solid;
+    border-color: rgb(160, 61, 3);
+    border-radius: 15px;
+    padding: 20px 30px;
+}
+.container-aside h2{
+    margin-bottom: 8px;
+    color: rgb(160, 61, 3);
+}
+
+.list-rec{
+    padding-top: 20px;
+    padding-left: 11px;
+    list-style:upper-roman
+}
+
+.list-rec-item{
+    font-size: 17px;
+}
+
+.books-container{
+    padding: 34px 25px;
+    width: 90%;
+    margin-left: 7%;
+}
+
+.books-container>h2{
+    width: 100%;
+    left: -2%;
+    position: absolute;
+    text-align: center;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.books{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+
+.book{
+    position: relative;
+    display: flex;
+    border-color: rgb(160, 61, 3);
+    background-color: rgba(160, 68, 15, 0.192);
+    border-radius: 10px;
+    padding: 20px 30px;
+    flex-direction: row;
+    border-style: solid;
+    width: 42%;
+    margin-top: 3%;
+    height: 200px;
+}
+
+.book h4{
+    text-align: center;
+    padding: 5px 8px;
+    width: 100%;
+    margin-left: 8%;
+    font-size: 18px;
+}
+
+.book img{
+    margin-left: 2%;
+}
+
+.book button{
+    position: absolute;
+    width: 40%;
+    padding: 12px 10px;
+    border-radius: 10px;
+    border-color: rgb(160, 61, 3);
+    color: rgb(160, 61, 3);
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    left: 47%;
+    top: 50%;
+}
+
+.book button:hover{
+    border-color: rgb(160, 61, 3);
+    color: white;
+    background-color: rgb(160, 61, 3);
+}
+
+.mtop{
+    margin-top: 6%;
+}
+
+.editorial{
+    margin-top: 6px;
+    margin-left: 15%;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.editorial p{
+    margin-left: 5px;
+}
+
+.ano{
+    margin-top: 6px;
+    margin-left: 15%;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ano p{
+    margin-left: 5px;
+}
+
+.cantidad{
+    margin-top: 6px;
+    margin-left: 15%;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.number{
+    margin-top: 6px;
+    margin-left: 15%;
+    padding: 4px 8px;
+}
+
+.pay-button{
+    position: absolute;
+    padding: 20px 12px;
+    background-color: white;
+    top: 50%;
+    left: 55%;
+    border-radius: 12px;
+    font-size: 18px;
+    border-color: rgb(160, 61, 3);
+    color: white;
+    background-color: rgb(160, 61, 3);
+    cursor: pointer;
+}
+.pay-button:hover{
+    border-color: rgb(160, 61, 3);
+    color: rgb(160, 61, 3);
+    background-color: white;
+}
